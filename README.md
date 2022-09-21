@@ -1,7 +1,7 @@
 
 # Alquiler de Vehículos
 
-[Web](https://nicomarshal.github.io/challenge-front2022)
+[Web](https://nicomarshal.github.io/challeng)
 
 Desarrollar utilizando el carsJSON y las imágenes adjuntas, como referencia visual, una página para elegir un vehículo para alquilar.
 
