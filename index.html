@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Listado de autos</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+</head>
+<body>
+	<div class="container">
+		<div class="filter">
+			<div class="filter__select">
+				<h4>Filter by</h4>
+				<select class="select">
+					<option>All</option>
+				</select>
+			</div>
+			<div class="filter__checkbox">
+				<label>
+					<input type="checkbox" class="check1">&nbsp;&nbsp;Manual transmission
+				</label>
+				<label>
+					<input type="checkbox" class="check2">&nbsp;&nbsp;5 seats
+				</label>
+				<label>
+					<input type="checkbox" class="check3">&nbsp;&nbsp;Convertibles
+				</label>
+				<label>
+					<input type="checkbox" class="check4">&nbsp;&nbsp;Automatic transmission
+				</label>
+				<label>
+					<input type="checkbox" class="check5">&nbsp;&nbsp;7 seats or more
+				</label>				
+			</div>
+		</div>
+		<div class="carsList"></div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
